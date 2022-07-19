@@ -11,6 +11,6 @@ spec:
   profile:
     displayName: TIM.it
     email: tim@tim.it
-    picture: https://upload.wikimedia.org/wikipedia/commons/4/40/GRUPPO_TIM.svg
+    picture: https://logodownload.org/wp-content/uploads/2015/02/tim-logo-11.png
   parent: tim-corp
   children: [team-spring-sensors-catalog]

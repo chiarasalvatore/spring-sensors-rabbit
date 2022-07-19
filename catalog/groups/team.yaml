@@ -8,7 +8,7 @@ spec:
   profile:
     displayName: Team Spring Sensors Catalog
     email: team-spring-sensors-catalog@tim.it
-    picture: https://upload.wikimedia.org/wikipedia/commons/4/40/GRUPPO_TIM.svg
+    picture: https://logodownload.org/wp-content/uploads/2015/02/tim-logo-11.png
   parent: it-market
   children: []
 ---
