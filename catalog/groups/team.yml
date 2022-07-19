@@ -20,5 +20,5 @@ spec:
   profile:
     displayName: Default User
     email: guest@example.com
-    picture: 
+    picture: https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png
   memberOf: [team-tmf-product-catalog]
