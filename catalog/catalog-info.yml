@@ -7,6 +7,6 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./groups/org.yaml
-    - ./components/message-broker/component-rabbitmq.yaml
-    - ./components/service/component.yaml
+    - ./groups/org.yml
+    - ./components/message-broker/component-rabbitmq.yml
+    - ./components/service/component.yml
