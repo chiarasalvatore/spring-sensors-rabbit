@@ -11,7 +11,6 @@ spec:
   profile:
     displayName: TIM 
     email: tim@tim.it
-    picture: https://logodownload.org/wp-content/uploads/2015/02/tim-logo-11.png
   children: [it-market]
 ---
 apiVersion: backstage.io/v1alpha1
