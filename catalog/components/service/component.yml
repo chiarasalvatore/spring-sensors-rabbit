@@ -9,7 +9,7 @@ metadata:
     - service
     - java
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors-rabbit'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
     'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://spring.io/
