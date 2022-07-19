@@ -18,7 +18,7 @@ metadata:
   name: guest
 spec:
   profile:
-    displayName: Default User
-    email: guest@example.com
+    displayName: First User
+    email: firstuser@team.com
     picture: https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png
   memberOf: [team-spring-sensors-catalog]
