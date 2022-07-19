@@ -1,16 +1,16 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: uk-market
-  description: The UK market
+  name: it-market
+  description: The IT market
   links:
-    - url: https://www.vodafone.co.uk
+    - url: https://www.tim.it
       title: Website
 spec:
   type: sub-department
   profile:
-    displayName: Vodafone UK
-    email: ukmediarelations@vodafone.com
-    picture: https://www.vodafone.com/icons/group/logo-vodafone.svg
-  parent: vodafone-corp
-  children: [team-tmf-product-catalog]
+    displayName: TIM.it
+    email: tim@tim.it
+    picture: https://logodownload.org/wp-content/uploads/2015/02/tim-logo-11.png
+  parent: tim-corp
+  children: [team-spring-sensors-catalog]

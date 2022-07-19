@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-tmf-product-catalog
-  description: Team TMF Product Catalog
+  name: team-spring-sensors-catalog
+  description: Team Spring Sensors Catalog
 spec:
   type: team
   profile:
-    displayName: Team TMF Product Catalog
-    email: team-tmf-product-catalog@vodafone.co.uk
-    picture: https://www.vodafone.com/icons/group/logo-vodafone.svg
-  parent: uk-market
+    displayName: Team Spring Sensors Catalog
+    email: team-spring-sensors-catalog@tim.it
+    picture: https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg
+  parent: it-market
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -20,5 +20,5 @@ spec:
   profile:
     displayName: Default User
     email: guest@example.com
-    picture: https://cdn.vodafone.co.uk/en/assets/images/large/IMG_Tech_Team_Tobi.jpg
+    picture: 
   memberOf: [team-tmf-product-catalog]

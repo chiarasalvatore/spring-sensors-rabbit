@@ -1,4 +1,4 @@
-site_name: 'tmf-apis-system'
+site_name: 'spring-sensors-catalog-management-rmq'
 
 nav:
   - Home: index.md

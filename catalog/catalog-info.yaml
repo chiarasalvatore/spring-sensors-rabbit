@@ -2,13 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
   name: spring-sensors-rabbit
-  description: Spring application
+  description: Spring application managing sensors
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./systems/tmf-apis-system.yaml
     - ./groups/org.yaml
-    - ./components/database/component-mongo.yaml
-    - ./apis/api.yaml
+    - ./components/message-broker/component-rabbitmq.yaml
     - ./components/service/component.yaml

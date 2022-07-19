@@ -1,22 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tmf-product-catalog-management-api-service
-  description: TMF Product Catalog Management API
+  name: spring-sensors-service
+  description: Spring Sensors Management Service
   tags:
-    - tmf620
+    - spring
+    - sensors
+    - service
+    - java
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tmf-product-catalog-management-api-service'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=spring-sensors'
     'backstage.io/techdocs-ref': dir:.
   links:
-    - url: https://www.tmforum.org
-      title: TM Forum
+    - url: https://spring.io/
+      title: Spring makes Java simple, modern, productive, reactive, cloud-ready
 spec:
   type: service
   lifecycle: experimental
-  owner: team-tmf-product-catalog
-  system: tmf-apis-system
+  owner: team-spring-sensors-catalog
+  system: spring-sensors-system
   dependsOn:
-    - Component:tmf-product-catalog-management-api-db
-  providesApis:
-    - tmf-product-catalog-management-api
+    - Component:spring-sensors-catalog-management-rmq
