@@ -11,4 +11,4 @@ spec:
     - ./components/message-broker/component-rabbitmq.yml
     - ./components/service/component.yml
     - ./systems/spring-sensors-system.yaml
-    - ./component/api/component-api.yml
+    - ./apis/api.yml
